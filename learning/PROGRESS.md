@@ -6,11 +6,12 @@
 실제 학습 결과만 기록한다. 학습하지 않은 내용을 미리 채우지 않는다.
 -->
 
-마지막 업데이트: 2026-10-26
+마지막 업데이트: 2026-11-23
 
 ## 현재 집중 주제
 
 - OIDC — GitLab CI/CD의 OIDC 전환 작업을 위한 선행 학습
+- Kubernetes (`kubernetes`) — 진단 인터뷰로 시작점 찾는 중
 
 ## 주제 목록 (Topic index)
 
@@ -23,6 +24,7 @@
 | 주제 | 파일 | 상태 | 마지막 학습 | 현재 위치 |
 |---|---|---|---|---|
 | OIDC (OpenID Connect) | [oidc](topics/oidc.md) | 학습 중 | 2026-10-26 | 전체 흐름(GitLab→runner→job→STS→S3) 설명 확인됨. 다음: 범위 확정 후 GitLab `id_tokens`와 AWS trust policy, 또는 검증 실습 |
+| Kubernetes | [kubernetes](topics/kubernetes.md) | 학습 중 | 2026-11-23 | 진단 인터뷰 완료. 용어·구조·제어 루프 직관은 있음. gap: namespace, Pod 단위, Deployment vs ReplicaSet, Service 존재 이유, scheduler, API server hub. 시작점 확정 중 |
 
 ## 다음 학습 우선순위
 
